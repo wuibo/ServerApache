@@ -8,7 +8,7 @@ $dbname = "atrapados";
 $conn = new mysqli($servername,$username,$password,$dbname);
 //comprobar conexion
 if($conn->connect_error){
-	die("connection failes: ". $conn->connect_error);
+	die("connection failes: ".$conn->connect_error);
 }
 
 //obtener datos
